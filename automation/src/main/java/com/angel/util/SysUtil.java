@@ -9,7 +9,7 @@ public class SysUtil {
 	}
 	
 	public void setChrome() {
-		System.setProperty("webdriver.chrome.driver", "/Users/andy/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:/green/dev/PortableGit/andy/java-selenium/browser/chromedriver.exe");
 	}
 	
 	public void setProvinceProxy() {

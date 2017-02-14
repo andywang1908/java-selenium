@@ -17,7 +17,10 @@ public class FolderUtil {
 	
 	public String calRootPath() {
 		if ( rootPath==null ) {
-			rootPath = "/Users/andy/Downloads/bug";// C:/cut/quality/real/realws
+            // C:/cut/quality/real/realws
+            // /Users/andy/Downloads/bug
+		    // C:/green/dev/PortableGit/andy/java-selenium
+			rootPath = "C:/green/dev/PortableGit/andy/java-selenium";
 		}
 		
 		return rootPath;

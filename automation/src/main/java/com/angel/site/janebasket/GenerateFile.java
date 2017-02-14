@@ -12,18 +12,18 @@ import com.angel.util.GsonUtil;
 import com.google.gson.reflect.TypeToken;
 
 public class GenerateFile {
-	public String taskFold = "wanglin/janebasket";
-	//public String taskFold = "wanglin/janebasket/lady";
-	//public String taskFold = "wanglin/janebasket/youth";
-	//public String taskFold = "wanglin/janebasket/sport";
-	//public String taskFold = "wanglin/janebasket/woven";
-	//public String taskFold = "wanglin/janebasket/workwear";  
-	//public String taskFold = "wanglin/janebasket/activeware";
-	//public String taskFold = "wanglin/janebasket/fleece";
-	//public String taskFold = "wanglin/janebasket/outerwear";
-	//public String taskFold = "wanglin/janebasket/headwear";
-	//public String taskFold = "wanglin/janebasket/accessories";
-	//public String taskFold = "wanglin/janebasket/pants";
+	public String taskFold = "db/janebasket";
+	//public String taskFold = "db/janebasket/lady";
+	//public String taskFold = "db/janebasket/youth";
+	//public String taskFold = "db/janebasket/sport";
+	//public String taskFold = "db/janebasket/woven";
+	//public String taskFold = "db/janebasket/workwear";  
+	//public String taskFold = "db/janebasket/activeware";
+	//public String taskFold = "db/janebasket/fleece";
+	//public String taskFold = "db/janebasket/outerwear";
+	//public String taskFold = "db/janebasket/headwear";
+	//public String taskFold = "db/janebasket/accessories";
+	//public String taskFold = "db/janebasket/pants";
 
 	protected Map<String, ClothItem> readResourceJson(String metaFile) throws Exception {
 		String json = null;

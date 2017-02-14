@@ -14,7 +14,7 @@ import com.angel.util.FolderUtil;
 
 //this is not pojo
 public class MetaFactory {
-	private static final String FOLDER_SANMARCANADA = "wanglin/sanmarcanada";
+	private static final String FOLDER_SANMARCANADA = "db/sanmarcanada";
 	private static final String FOLDER_META = "0meta";
 	
 	private Map<String, String> metaCate;

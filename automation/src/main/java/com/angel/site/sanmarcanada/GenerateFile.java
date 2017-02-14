@@ -13,18 +13,18 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 public class GenerateFile {
-	//public String taskFold = "wanglin/sanmarcanada";
-	//public String taskFold = "wanglin/sanmarcanada/lady";
-	//public String taskFold = "wanglin/sanmarcanada/youth";
-	//public String taskFold = "wanglin/sanmarcanada/sport";
-	//public String taskFold = "wanglin/sanmarcanada/woven";
-	//public String taskFold = "wanglin/sanmarcanada/workwear";  
-	//public String taskFold = "wanglin/sanmarcanada/activeware";
-	//public String taskFold = "wanglin/sanmarcanada/fleece";
-	//public String taskFold = "wanglin/sanmarcanada/outerwear";
-	//public String taskFold = "wanglin/sanmarcanada/headwear";
-	//public String taskFold = "wanglin/sanmarcanada/accessories";
-	public String taskFold = "wanglin/sanmarcanada/pants";//cur
+	//public String taskFold = "db/sanmarcanada";
+	//public String taskFold = "db/sanmarcanada/lady";
+	//public String taskFold = "db/sanmarcanada/youth";
+	//public String taskFold = "db/sanmarcanada/sport";
+	//public String taskFold = "db/sanmarcanada/woven";
+	//public String taskFold = "db/sanmarcanada/workwear";  
+	//public String taskFold = "db/sanmarcanada/activeware";
+	//public String taskFold = "db/sanmarcanada/fleece";
+	//public String taskFold = "db/sanmarcanada/outerwear";
+	//public String taskFold = "db/sanmarcanada/headwear";
+	//public String taskFold = "db/sanmarcanada/accessories";
+	public String taskFold = "db/sanmarcanada/pants";//cur
 
 	protected Map<String, ClothItem> readResourceJson(String metaFile) throws Exception {
 		String json = null;
