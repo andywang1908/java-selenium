@@ -14,14 +14,14 @@ public class SysUtil {
 	
 	public void setProvinceProxy() {
 		/**/
-		System.setProperty("https.proxyHost", "206.177.43.90");
+		System.setProperty("https.proxyHost", "204.40.194.129");
 		System.setProperty("https.proxyPort", "3128");
 		System.setProperty("https.proxyUser", "EBC\\WangAn1");
-		System.setProperty("https.proxyPassword", "wL//1239");
-		System.setProperty("http.proxyHost", "206.177.43.90");
+		System.setProperty("https.proxyPassword", "Ontario6$");
+		System.setProperty("http.proxyHost", "204.40.194.129");
 		System.setProperty("http.proxyPort", "3128");
 		System.setProperty("http.proxyUser", "EBC\\WangAn1");
-		System.setProperty("http.proxyPassword", "wL//1239");
+		System.setProperty("http.proxyPassword", "Ontario6$");
 	}
 
 	//just for tshirt
